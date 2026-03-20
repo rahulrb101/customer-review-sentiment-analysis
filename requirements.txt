@@ -1,0 +1,69 @@
+# requirements.txt for Sentiment Analysis Project
+# Designed for Python 3.10.
+# To install: pip install -r requirements.txt
+
+# --- Core Data Manipulation and Scientific Computing ---
+# pandas: Data structures and analysis tools.
+# Version 2.2.0 is recent and stable, compatible with Python 3.10.
+pandas==2.2.0
+
+# numpy: Fundamental package for scientific computing with Python.
+# Version 1.26.4 is a stable 1.x release, compatible with pandas 2.2.0 and Python 3.10.
+numpy==1.26.4
+
+# --- Natural Language Processing ---
+# nltk: Natural Language Toolkit - for tokenization, stop words, etc.
+# Version 3.8.1 is a recent stable release.
+nltk==3.8.1
+
+# --- Machine Learning Frameworks ---
+# scikit-learn: Machine learning algorithms.
+# Version 1.3.2 is current and widely used.
+scikit-learn==1.3.2
+
+# transformers: Hugging Face library for state-of-the-art NLP models (e.g., BERT, RoBERTa).
+# Version 4.38.2 is a recent stable release, ensuring access to newer models and features.
+transformers==4.38.2
+
+# torch: PyTorch deep learning framework.
+# IMPORTANT NOTE ON TORCH:
+# The version specified below (2.2.1) is typically a CPU-only build when installed via pip directly.
+# If you need GPU support (CUDA), you MUST follow the instructions on the official PyTorch website:
+# https://pytorch.org/get-started/locally/
+# You'll likely need to use a command like:
+# pip install torch==2.2.1+cu118 torchvision==0.17.1+cu118 torchaudio==2.2.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+# (adjusting CUDA version like `cu118` or `cu121` as per your system).
+# For general project setup, we pin the CPU-only version for maximum out-of-the-box compatibility.
+torch==2.2.1
+
+# --- Visualization Libraries ---
+# matplotlib: Comprehensive library for creating static, animated, and interactive visualizations.
+# Version 3.8.3 is a recent stable release.
+matplotlib==3.8.3
+
+# seaborn: Statistical data visualization based on matplotlib.
+# Version 0.13.2 is current and compatible with matplotlib 3.8.3.
+seaborn==0.13.2
+
+# wordcloud: Library to create word clouds.
+# Version 1.9.3 is the latest stable release.
+wordcloud==1.9.3
+
+# --- Web Application Framework ---
+# streamlit: A faster way to build and share data apps.
+# Version 1.31.1 is a recent stable release.
+streamlit==1.31.1
+
+# --- Data Source Integration ---
+# kaggle: Kaggle API client for easy access to Kaggle datasets and competitions.
+# Version 1.6.12 is the latest stable release.
+kaggle==1.6.12
+
+# --- Development Tools ---
+# jupyterlab: Next-generation web-based user interface for Project Jupyter.
+# Version 4.1.2 is recent and compatible with Python 3.10.
+jupyterlab==4.1.2
+
+# tqdm: A fast, extensible progress bar for loops and iterables.
+# Version 4.66.2 is the latest stable release.
+tqdm==4.66.2
