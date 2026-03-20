@@ -78,6 +78,4 @@ To contribute to this project, please follow these steps:
 5. Create a pull request
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-Please note that you should replace `rahulrb101` with your actual GitHub username in the `Stars` badge. Also, make sure to update the `README.md` file with your project's specific information.
+This project is licensed under the MIT License.
